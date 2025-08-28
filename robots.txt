@@ -1,1 +1,1 @@
-Sitemap: https://dominikhirsch.github.io/How-To-Wiki/sitemap.xml
+Sitemap: https://dominikhirsch.github.io/How-To-Wiki/How-To-Wiki/sitemap.xml
