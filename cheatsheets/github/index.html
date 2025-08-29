@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Unterseite 1 - How-To-Wiki</title>
-<meta name="description" content="Unterseite 1">
+<!-- begin _includes/seo.html --><title>Github Cheatsheet - How-To-Wiki</title>
+<meta name="description" content="Repository &amp; Setup Initialisiert ein neues Repository im aktuellen Ordner: git init  Klont ein bestehendes Repository: git clone &lt;url&gt;  Zeigt die aktuellen Remotes: git remote -v  Fügt ein Remote hinzu (z. B. GitHub): git remote add origin &lt;url&gt;">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="How-To-Wiki">
-<meta property="og:title" content="Unterseite 1">
-<meta property="og:url" content="https://dominikhirsch.github.io/How-To-Wiki/How-To-Wiki/seite2/sub1/">
+<meta property="og:title" content="Github Cheatsheet">
+<meta property="og:url" content="https://dominikhirsch.github.io/How-To-Wiki/How-To-Wiki/cheatsheets/github/">
 
 
-  <meta property="og:description" content="Unterseite 1">
+  <meta property="og:description" content="Repository &amp; Setup Initialisiert ein neues Repository im aktuellen Ordner: git init  Klont ein bestehendes Repository: git clone &lt;url&gt;  Zeigt die aktuellen Remotes: git remote -v  Fügt ein Remote hinzu (z. B. GitHub): git remote add origin &lt;url&gt;">
 
 
 
@@ -36,7 +36,7 @@
 
 
 
-<link rel="canonical" href="https://dominikhirsch.github.io/How-To-Wiki/How-To-Wiki/seite2/sub1/">
+<link rel="canonical" href="https://dominikhirsch.github.io/How-To-Wiki/How-To-Wiki/cheatsheets/github/">
 
 
 
@@ -180,7 +180,7 @@
         
         <ul>
           
-            <li><a href="/How-To-Wiki/seite2/sub1/" class="active">Unterseite 1</a></li>
+            <li><a href="/How-To-Wiki/seite2/sub1/">Unterseite 1</a></li>
           
             <li><a href="/How-To-Wiki/seite2/sub2/">Unterseite 2</a></li>
           
@@ -196,7 +196,7 @@
         
         <ul>
           
-            <li><a href="/How-To-Wiki/cheatsheets/github/">Github Cheatsheet</a></li>
+            <li><a href="/How-To-Wiki/cheatsheets/github/" class="active">Github Cheatsheet</a></li>
           
             <li><a href="/How-To-Wiki/cheatsheets/markdown/">Markdown Cheatsheet</a></li>
           
@@ -214,15 +214,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Unterseite 1">
-    <meta itemprop="description" content="Unterseite 1">
+    <meta itemprop="headline" content="Github Cheatsheet">
+    <meta itemprop="description" content="Repository &amp; SetupInitialisiert ein neues Repository im aktuellen Ordner:git initKlont ein bestehendes Repository:git clone &lt;url&gt;Zeigt die aktuellen Remotes:git remote -vFügt ein Remote hinzu (z. B. GitHub):git remote add origin &lt;url&gt;">
     <meta itemprop="datePublished" content="2025-08-29T14:02:18+00:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Unterseite 1
+          <h1 id="page-title" class="page__title" itemprop="headline">Github Cheatsheet
 </h1>
           
 
@@ -235,14 +235,50 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Inhalt</h4></header>
-              <ul class="toc__menu"><li><a href="#unterseite-1">Unterseite 1</a></li></ul>
+              <ul class="toc__menu"><li><a href="#repository--setup">Repository &amp; Setup</a></li><li><a href="#änderungen-verwalten">Änderungen verwalten</a></li><li><a href="#branches">Branches</a></li></ul>
 
             </nav>
           </aside>
         
-        <h1 id="unterseite-1">Unterseite 1</h1>
+        <h2 id="repository--setup">Repository &amp; Setup</h2>
+<p>Initialisiert ein neues Repository im aktuellen Ordner:</p>
+<pre><code class="language-Bash">git init
+</code></pre>
+<p>Klont ein bestehendes Repository:</p>
+<pre><code class="language-Bash">git clone &lt;url&gt;
+</code></pre>
+<p>Zeigt die aktuellen Remotes:</p>
+<pre><code class="language-Bash">git remote -v
+</code></pre>
+<p>Fügt ein Remote hinzu (z. B. GitHub):</p>
+<pre><code class="language-Bash">git remote add origin &lt;url&gt;
+</code></pre>
 
-<p>Das ist die erste Unterseite.</p>
+<h2 id="änderungen-verwalten">Änderungen verwalten</h2>
+<p>Status prüfen:</p>
+<pre><code class="language-Bash">git status
+</code></pre>
+<p>Dateien zur Staging-Area hinzufügen:</p>
+<pre><code class="language-Bash">git add &lt;datei&gt;
+git add .       # alle Änderungen
+</code></pre>
+<p>Commit erstellen:</p>
+<pre><code class="language-Bash">git commit -m "Nachricht"
+</code></pre>
+
+<h2 id="branches">Branches</h2>
+<p>Neuen Branch erstellen:</p>
+<pre><code class="language-Bash">git branch &lt;name&gt;
+</code></pre>
+<p>Zu einem Branch wechseln:</p>
+<pre><code class="language-Bash">git checkout &lt;name&gt;
+</code></pre>
+<p>Branch erstellen und wechseln:</p>
+<pre><code class="language-Bash">git checkout -b &lt;name&gt;
+</code></pre>
+<p>Branch umbenennen (z. B. in main):</p>
+<pre><code class="language-Bash">git branch -M main
+</code></pre>
 
         
       </section>
@@ -264,11 +300,11 @@
       
   <nav class="pagination">
     
-      <a href="/How-To-Wiki/seite2/" class="pagination--pager" title="Seite 2
+      <a href="/How-To-Wiki/cheatsheets/" class="pagination--pager" title="Cheatsheets
 ">Previous</a>
     
     
-      <a href="/How-To-Wiki/seite2/sub2/" class="pagination--pager" title="Unterseite 2
+      <a href="/How-To-Wiki/cheatsheets/markdown/" class="pagination--pager" title="Markdown Cheatsheet
 ">Next</a>
     
   </nav>
