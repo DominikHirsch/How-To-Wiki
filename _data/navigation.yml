@@ -1,18 +1,3 @@
-# Navigation in Appbar/Taskliste
-#main:
-#  - title: "Start"
-#    url: /
-#  - title: "Seite 1"
-#    url: /seite1/
-#  - title: "Seite 2"
-#    url: /seite2/
-#    children:
-#      - title: "Unterseite 1"
-#        url: /seite2/sub1/
-#      - title: "Unterseite 2"
-#        url: /seite2/sub2/
-
-# _data/navigation.yml
 docs_sidebar:
   - title: "Startseite"
     url: /
@@ -25,3 +10,10 @@ docs_sidebar:
         url: /seite2/sub1/
       - title: "Unterseite 2"
         url: /seite2/sub2/
+  - title: "Cheatsheets"
+    url: /cheatsheets/
+    children:
+      - title: "Github Cheatsheet"
+        url: /cheatsheets/github/
+      - title: "Markdown Cheatsheet"
+        url: /cheatsheets/markdown/
