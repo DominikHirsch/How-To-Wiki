@@ -1,8 +1,9 @@
 docs_sidebar:
+  -
   - title: "Startseite"
     url: /
-  - title: "Seite 1"
-    url: /seite1/
+  - title: "Command Line Interface"
+    url: /cli/
   - title: "Seite 2"
     url: /seite2/
     children:

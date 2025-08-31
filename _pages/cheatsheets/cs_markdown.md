@@ -14,12 +14,13 @@ permalink: /cheatsheets/markdown/
 ###### H6
 ```
 **Ergebnis**
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+    
+<h1>H1</h1>
+<h2>H2</h2>
+<h3>H3</h3>
+<h4>H4</h4>
+<h5>H5</h5>
+<h6>H6</h6>
 
 ## Textformatierungen
 **Syntax**
@@ -204,11 +205,19 @@ Dies ist ein Satz mit einer Fußnote[^1].
 ```markdown
 - [x] Erledigt
 - [ ] Offen
+    - [ ] Unterpunkt
+        - [x] Noch ein Unterpunkt
 ```
 
 **Ergebnis**
 
 * [x] Erledigt
 * [ ] Offen
+  * [ ] Unterpunkt
+    * [x] Noch ein Unterpunkt
 
+
+<img src="/images/celsius.jpg" alt="Anders Celsius">
+
+<img src="https://example.com/beispielbild.jpg" alt="Ein Beispielbild" width="400">
 
