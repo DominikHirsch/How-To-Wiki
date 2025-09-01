@@ -162,7 +162,9 @@ def hallo():
 ---
 ```
 
-## **Ergebnis**
+**Ergebnis**
+
+---
 
 ## Tabellen
 

@@ -17,18 +17,6 @@ CLI gilt als **direkter, präziser und skriptbarer Kommunikationskanal** zwische
 
 ---
 
-## Anschauliche Erklärung
-
-Stell dir den Computer wie ein Restaurant vor:
-
-* In einer **GUI** gehst du durch ein Buffet. Du siehst, was es gibt, klickst auf das Essen, und es landet auf deinem Teller.
-* In einer **CLI** sprichst du direkt mit dem Koch durch ein Fenster in die Küche: *„Einmal Spaghetti Carbonara, bitte.“*
-  → Der Koch (das Betriebssystem) bereitet es genau so zu, wie du es gesagt hast, und gibt es dir durch das Fenster zurück.
-
-Das heißt: Die CLI wirkt für Einsteiger zunächst abstrakt (weil man nichts „sieht“ außer Text), erlaubt aber eine **schnelle, flexible und mächtige Steuerung** des Systems – ohne Umwege über Menüs und Klicks.
-
----
-
 ## Grundlegende Handhabung der CLI
 
 Eine CLI wird meist über ein **Terminal** oder eine **Konsole** aufgerufen.
@@ -86,24 +74,3 @@ cat test.txt | wc -l
 
 ---
 
-```Swift
-[ Lokaler Ordner ]
-      |
-      | git init (falls neu) 
-      |
-      V
-[ Lokales Git-Repo (.git/) ]
-      |  
-      | commit: speichert deine Änderungen lokal
-      |
-      V
-[ Remote "origin" ]
-      | URL = z.B. https://github.com/DEIN-USERNAME/GrueneWeise.git
-      | git remote add origin <URL>
-      |
-      | git push -u origin main
-      V
-[ GitHub Repo ]
-      | Webinterface + GitHub Pages + Actions
-      | Branch: main
-```

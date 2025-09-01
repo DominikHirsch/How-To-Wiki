@@ -34,3 +34,6 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: docs_sidebar
+
+sass:
+    sass_dir: _sass

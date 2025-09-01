@@ -1,0 +1,37 @@
+---
+# nur YAML-Header, Jekyll braucht das um SCSS zu verarbeiten
+---
+
+/* Erst das gewählte Skin und Minimal Mistakes importieren */
+@import "minimal-mistakes/skins/air"; // oder dein Skin
+@import "minimal-mistakes";
+
+/* ------------------------------------
+   Eigene Anpassungen
+------------------------------------ */
+
+/* Absätze */
+.page__content p {
+    font-size: 0.85rem;   // kleiner als Standard (1rem = Basisgröße)
+}
+
+.page__content {
+  ul li,
+  ol li {
+    font-size: 0.85rem;
+    margin-bottom: 0.125rem;
+  }
+
+  .toc ul li,
+  .toc ol li {
+    font-size: inherit; // TOC zurücksetzen
+    margin-bottom: inherit;
+  }
+}
+
+/* Auf mobilen Geräten (bis 768px) Standardgröße lassen */
+// @media screen and (max-width: 768px) {
+//   html {
+//     font-size: 16px;
+//   }
+// }
