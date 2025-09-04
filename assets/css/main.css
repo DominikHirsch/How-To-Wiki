@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* Erst das gewählte Skin und Minimal Mistakes importieren */
 /* ==========================================================================
    Air skin
    ========================================================================== */
@@ -5064,14 +5063,10 @@ body {
     height: 1px !important;
   }
 }
-/* ------------------------------------
-   Eigene Anpassungen
------------------------------------- */
-/* Absätze */
+/* eigene Anpassungen */
 .page__content p {
   font-size: 0.85rem;
 }
-
 .page__content ul li,
 .page__content ol li {
   font-size: 0.85rem;
@@ -5082,7 +5077,5 @@ body {
   font-size: inherit;
   margin-bottom: inherit;
 }
-
-/* Auf mobilen Geräten (bis 768px) Standardgröße lassen */
 
 /*# sourceMappingURL=main.css.map */
