@@ -1,15 +1,10 @@
 title: "How-To-Wiki"
-description: "Ein Minimalbeispiel mit Minimal Mistakes"
-baseurl: "/How-To-Wiki" # the subpath of your site, e.g. /blog/
+description: "Minimalbeispiel mit MM"
+baseurl: "/How-To-Wiki"
 url: "https://DominikHirsch.github.io/How-To-Wiki"
 
-# nur remote_theme verwenden für GitHub Actions
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-
-# lokal: theme aus Gemfile überschreibt remote_theme
 theme: minimal-mistakes-jekyll
-
-minimal_mistakes_skin: "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "air"
 
 plugins:
   - jekyll-include-cache
@@ -34,6 +29,8 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: docs_sidebar
+        auto_expand: true  # alles ausgeklappt
+
 
 sass:
-    sass_dir: _sass
+  sass_dir: _sass

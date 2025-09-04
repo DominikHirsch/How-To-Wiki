@@ -1,0 +1,10 @@
+<ul>
+    {% for child in include.children %}
+    <li>
+        <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
+        {% if child.children %}
+        {% include sidebar-children.html children=child.children %}
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>

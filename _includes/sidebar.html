@@ -1,0 +1,19 @@
+<div class="sidebar sticky">
+    <nav class="nav__list">
+        <input id="ac-toc" name="accordion-toc" type="checkbox">
+        <label for="ac-toc">Toggle Menu</label>
+        <ul class="nav__items">
+            {% assign children = site.data.navigation.docs_sidebar %}
+            {% for child in children %}
+            <li>
+                <a href="{{ child.url | relative_url }}">
+                    <span class="nav__sub-title">{{ child.title }}</span>
+                </a>
+                {% if child.children %}
+                {% include sidebar-children.html children=child.children %}
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</div>

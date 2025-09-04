@@ -1,0 +1,15 @@
+<div>🎉 custom-sidebar.html geladen!</div>
+{% assign children = include.children | default: page.sidebar_children %}
+{% if children and children.size > 0 %}
+<ul class="sidebar-nav">
+    {% for child in children %}
+    {% assign has_grandchildren = child.children | default: nil %}
+    <li class="sidebar-nav-item {% if has_grandchildren %} has-children {% end if %}">
+        <a class="sidebar-nav-link" href="{{ child.url }}">{{ child.title }}</a>
+        {% if has_grandchildren %}
+        {% include custom-sidebar.html children=child.children %}
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}

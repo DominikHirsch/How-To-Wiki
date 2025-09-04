@@ -1,11 +1,43 @@
 docs_sidebar:
-  -
   - title: "Startseite"
     url: /
-  - title: "Command Line Interface"
-    url: /cli/
+  - title: "Tools and Technologies"
+    url: /tools-and-technologies/
+    has_children: true
+    children:
+      - title: "Command Line Interface"
+        url: /tools-and-technologies/cli/
+        has_children: true
+        children:
+          - title: "01 – Navigation"
+            url: /tools-and-technologies/cli/cli_ex_01/
+          - title: "01 – Lösung"
+            url: /tools-and-technologies/cli/cli_ex_01_solution/
+          - title: "02 – Dateien und Verzeichnisse"
+            url: /tools-and-technologies/cli/cli_ex_02/
+          - title: "02 - Lösung"
+            url: /tools-and-technologies/cli/cli_ex_02_solution/
+            has_children: true
+            children:
+              - title: "02.2 – Test"
+                url: /tools-and-technologies/cli/cli_ex_02_02/
+              - title: "02.3 – Lösung"
+                url: /tools-and-technologies/cli/cli_ex_02_02_solution/
+          - title: "03 - Kopieren und Verschieben"
+            url: /tools-and-technologies/cli/cli_ex_03/
+          - title: "03 - Lösung"
+            url: /tools-and-technologies/cli/cli_ex_03_solution/
+          - title: "04 - Pipes und Weiterleitungen"
+            url: /tools-and-technologies/cli/cli_ex_04/
+          - title: "04 - Lösung"
+            url: /tools-and-technologies/cli/cli_ex_04_solution/
+          - title: "05 - Mini-Projekt"
+            url: /tools-and-technologies/cli/cli_ex_05/
+          - title: "05 - Lösung"
+            url: /tools-and-technologies/cli/cli_ex_05_solution/
   - title: "Seite 2"
     url: /seite2/
+    has_children: true
     children:
       - title: "Unterseite 1"
         url: /seite2/sub1/
@@ -13,6 +45,7 @@ docs_sidebar:
         url: /seite2/sub2/
   - title: "Cheatsheets"
     url: /cheatsheets/
+    has_children: true
     children:
       - title: "Github Cheatsheet"
         url: /cheatsheets/github/

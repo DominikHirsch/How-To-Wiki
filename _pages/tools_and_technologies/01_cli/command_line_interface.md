@@ -1,7 +1,11 @@
 ---
 title: "Command Line Interface"
-permalink: /cli/
+parent: "Tools and Technologies"
+permalink: /tools-and-technologies/cli/
+has_children: true
 ---
+
+<div> 🎉 custom-sidebar.html geladen! </div>
 
 ## Definition: Command Line Interface (CLI)
 
@@ -73,4 +77,22 @@ cat test.txt | wc -l
 * **Lernkurve:** Anfangs steil, da man Syntax und Befehle kennen muss – auf lange Sicht aber effizienter.
 
 ---
+
+## Wichtige CLI-Befehle für die Übungen
+
+Für die Praxisphase sollen die Studierenden folgende Befehle beherrschen:
+
+| Kategorie               | Befehle                                  | Zweck                                                    |                                       |
+| ----------------------- | ---------------------------------------- | -------------------------------------------------------- | ------------------------------------- |
+| **Navigation**          | `pwd`, `ls`, `cd`, `mkdir`, `rmdir`      | Verzeichnisstruktur verstehen, navigieren                |                                       |
+| **Dateien**             | `touch`, `echo`, `cat`, `rm`, `cp`, `mv` | Dateien erstellen, lesen, löschen, kopieren, verschieben |                                       |
+| **Information & Suche** | `wc`, `grep`, `find`                     | Textanalyse und Suche in Dateien                         |                                       |
+| **Kombination & Pipes** | \`                                       | `, `>`,`>>\`                                             | Befehle verknüpfen, Ausgaben umleiten |
+| **Systeminfos**         | `whoami`, `date`, `uptime`               | Grundlegende Systeminformationen abfragen                |                                       |
+
+> Hinweis: In den Übungen wird auf diese Befehle zurückgegriffen. Ziel ist es, Sicherheit im Umgang mit dem Terminal zu entwickeln.
+
+
+
+
 
