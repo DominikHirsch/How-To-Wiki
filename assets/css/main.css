@@ -5064,18 +5064,20 @@ body {
   }
 }
 /* eigene Anpassungen */
-.page__content p {
-  font-size: 0.85rem;
-}
-.page__content ul li,
-.page__content ol li {
-  font-size: 0.85rem;
-  margin-bottom: 0.125rem;
-}
-.page__content .toc ul li,
-.page__content .toc ol li {
-  font-size: inherit;
-  margin-bottom: inherit;
+@media (min-width: 1024px) {
+  .page__content p {
+    font-size: 0.85rem;
+  }
+  .page__content ul li,
+  .page__content ol li {
+    font-size: 0.85rem;
+    margin-bottom: 0.125rem;
+  }
+  .page__content .toc ul li,
+  .page__content .toc ol li {
+    font-size: inherit;
+    margin-bottom: inherit;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
