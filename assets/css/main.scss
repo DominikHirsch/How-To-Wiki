@@ -7,19 +7,20 @@
 
 /* eigene Anpassungen */
 .page__content {
-    p {
-        font-size: 0.85rem;
+
+    @media ( min-width: 1024px) {
+        p {
+            font-size: 0.85rem;
         }
-
-  ul li,
-  ol li {
-    font-size: 0.85rem;
-    margin-bottom: 0.125rem;
-  }
-
-  .toc ul li,
-  .toc ol li {
-    font-size: inherit; // TOC zurücksetzen
-    margin-bottom: inherit;
-  }
+    ul li,
+    ol li {
+          font-size: 0.85rem;
+          margin-bottom: 0.125rem;
+        }
+      .toc ul li,
+      .toc ol li {
+        font-size: inherit; // TOC zurücksetzen
+        margin-bottom: inherit;
+      }
+   }
 }
