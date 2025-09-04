@@ -7,20 +7,25 @@
 
 /* eigene Anpassungen */
 .page__content {
+  // Default: Mobile / Tablets – alles bleibt vom Theme
 
-    @media ( min-width: 1024px) {
-        p {
-            font-size: 0.85rem;
-        }
+  @media screen and (pointer: fine) and (hover: hover) {
+    // Pointer: fine → Maus / Trackpad (typisch Desktop)
+    // Hover: hover → echtes Hover möglich, also kein Touchscreen
+    p {
+      font-size: 0.85rem;
+    }
+
     ul li,
     ol li {
-          font-size: 0.85rem;
-          margin-bottom: 0.125rem;
-        }
-      .toc ul li,
-      .toc ol li {
-        font-size: inherit; // TOC zurücksetzen
-        margin-bottom: inherit;
-      }
-   }
+      font-size: 0.85rem;
+      margin-bottom: 0.125rem;
+    }
+
+    .toc ul li,
+    .toc ol li {
+      font-size: inherit; // TOC unverändert lassen
+      margin-bottom: inherit;
+    }
+  }
 }
