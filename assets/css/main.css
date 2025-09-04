@@ -5064,7 +5064,7 @@ body {
   }
 }
 /* eigene Anpassungen */
-@media (min-width: 1024px) {
+@media screen and (pointer: fine) and (hover: hover) {
   .page__content p {
     font-size: 0.85rem;
   }
