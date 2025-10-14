@@ -8,7 +8,7 @@ var store = [{
         "title": "Github Cheatsheet",
         "excerpt":"Repository &amp; Setup  Initialisiert ein neues Repository im aktuellen Ordner:  git init  Klont ein bestehendes Repository:  git clone &lt;url&gt;  Zeigt die aktuellen Remotes:  git remote -v  Fügt ein Remote hinzu (z. B. GitHub):  git remote add origin &lt;url&gt;   Änderungen verwalten  Status prüfen:  git status  Dateien zur Staging-Area hinzufügen:  git add &lt;datei&gt; git add .       # alle Änderungen  Commit erstellen:  git commit -m \"Nachricht\"   Branches  Neuen Branch erstellen:  git branch &lt;name&gt;  Zu einem Branch wechseln:  git checkout &lt;name&gt;  Branch erstellen und wechseln:  git checkout -b &lt;name&gt;  Branch umbenennen (z. B. in main):  git branch -M main  ","categories": [],
         "tags": [],
-        "url": "/How-To-Wiki/cheatsheets/github/",
+        "url": "/How-To-Wiki/cheatsheets/cs_github/",
         "teaser": null
       },{
         "title": "Markdown Cheatsheet",
