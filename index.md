@@ -12,8 +12,9 @@ und [GitHub Pages](https://pages.github.com/).
 Test
 
 ## Inhaltsverzeichnis
-- [Command Line Interface (CLI)](How-To-Wiki/_pages/cheatsheets/cs_markdown.md)
-- [Markdown Cheatsheet](How-To-Wiki/_pages/cheatsheets/cs_markdown.md)
-- [GitHub Cheatsheet](How-To-Wiki/_pages/cheatsheets/cs_github.md)
-- [Weitere Cheatsheets](How-To-Wiki/_pages/cheatsheets/cheatsheets.md)
+- [Tools and Technologies](/tools-and-technologies/)
+- [Command Line Interface (CLI)](tools-and-technologies/cli/)
+- [Markdown Cheatsheet](cheatsheets/markdown/)
+- [GitHub Cheatsheet](/cheatsheets/cs_github/)
+- [Weitere Cheatsheets](/cheatsheets/)
 - 

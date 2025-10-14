@@ -1,6 +1,6 @@
 ---
 title: "Github Cheatsheet"
-permalink: /cheatsheets/github/
+permalink: /cheatsheets/cs_github/
 ---
 
 ## Repository & Setup
