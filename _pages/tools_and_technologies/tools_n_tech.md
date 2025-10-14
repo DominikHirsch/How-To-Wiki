@@ -58,3 +58,5 @@ Bevor wir in die Praxisphase starten, sollst du ein Verständnis dafür entwicke
 - Wie die einzelnen Kapitel des Wikis strukturiert sind
 
 Diese Informationen helfen dir, gezielt in die Übungen einzusteigen und dein Wiki effizient aufzubauen.
+
+- [ ] foo

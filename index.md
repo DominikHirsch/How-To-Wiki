@@ -10,8 +10,7 @@ Dieses Wiki bietet Anleitungen und Ressourcen zur Erstellung eines Wikis mit [Je
 und [GitHub Pages](https://pages.github.com/). 
 
 ## Inhaltsverzeichnis
-- [Command Line Interface (CLI)](/cli/)
-- [Markdown Cheatsheet](/cheatsheets/markdown/)
-- [GitHub Cheatsheet](/cheatsheets/github/)
-- [Weitere Cheatsheets](/cheatsheets/)
-- [Tutorials](/tutorials/)
+- [Command Line Interface (CLI)](/_pages/cheatsheets/cs_markdown.md)
+- [Markdown Cheatsheet](/_pages/cheatsheets/cs_markdown.md)
+- [GitHub Cheatsheet](/_pages/cheatsheets/cs_github.md)
+- [Weitere Cheatsheets](/_pages/cheatsheets/cheatsheets.md)
