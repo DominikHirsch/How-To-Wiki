@@ -9,6 +9,8 @@ permalink: /
 Dieses Wiki bietet Anleitungen und Ressourcen zur Erstellung eines Wikis mit [Jekyll](https://jekyllrb.com/) 
 und [GitHub Pages](https://pages.github.com/). 
 
+![Tux-Linux-Logo](assets/images/tux.svg)   
+
 Test
 
 ## Inhaltsverzeichnis

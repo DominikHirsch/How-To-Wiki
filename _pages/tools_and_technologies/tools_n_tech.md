@@ -59,4 +59,4 @@ Bevor wir in die Praxisphase starten, sollst du ein Verständnis dafür entwicke
 
 Diese Informationen helfen dir, gezielt in die Übungen einzusteigen und dein Wiki effizient aufzubauen.
 
-- [ ] foo
+- [x] foo
